@@ -1,3 +1,5 @@
 beautifulsoup4
 requests
 lxml
+scikit-learn
+jieba
