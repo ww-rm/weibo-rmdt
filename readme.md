@@ -5,14 +5,22 @@ A small project to automatically crawl micro-blog in Sina Weibo and try to detec
 ## Environments
 
 - python >= 3.7
-- torch >= 1.6.0
+- torch >= 1.6.1
 - [requirements.txt](https://github.com/ww-rm/weibo-rmdt/blob/main/requirements.txt)
 
 ## Dataset
 
-The dataset used in this project is merged from some small set. It was all pushed into this repo under folder ```data/dataset/raw/```
+The dataset used in this project is merged from some small set. It was all uploaded into this repo under folder ```data/dataset/raw/```
 
 Use [extractraw.py](https://github.com/ww-rm/weibo-rmdt/blob/main/extractraw.py) to generate ```train```, ```valid``` and ```eval``` datasets.
+
+## Pretrained Vectors
+
+The raw pretrained vectors is download from repo: [Chinese-Word-Vectors](https://github.com/Embedding/Chinese-Word-Vectors) via this link: [Mixed-large 综合 Baidu Netdisk Word + Character + Ngram](https://pan.baidu.com/s/14JP1gD7hcmsWdSpTvA3vKA)
+
+In this project, to avoid huge memory occupation, the raw vectors was processed to a binary data file ```pretrain_wv.vec.dat``` and a index file ```pretrain_wv.index.json```, and use the class ```PretrainedVector``` in dataset.py to load it.
+pretrain_wv.indexpretrain_wv.index
+You can download ```pretrain_wv.vec.dat``` from the [release page](https://github.com/ww-rm/weibo-rmdt/releases/tag/v1.0.0).
 
 ## Train
 
