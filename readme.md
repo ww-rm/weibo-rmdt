@@ -5,7 +5,7 @@ A small project to automatically crawl micro-blog in Sina Weibo and try to detec
 ## Environments
 
 - python >= 3.7
-- torch >= 1.6.1
+- torch >= 1.6.0
 - [requirements.txt](https://github.com/ww-rm/weibo-rmdt/blob/main/requirements.txt)
 
 ## Dataset
