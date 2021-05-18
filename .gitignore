@@ -127,3 +127,10 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# project
+dataset/
+.vscode/
+
+*.pt
+pretrain_wv.vec.dat
