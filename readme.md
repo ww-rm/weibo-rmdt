@@ -53,6 +53,10 @@ See [main.py](https://github.com/ww-rm/weibo-rmdt/blob/main/main.py) and [rmdt.p
 
 A simple example is in main.py and [main.ipynb](https://github.com/ww-rm/weibo-rmdt/blob/main/main.ipynb).
 
+## Known Problem
+
+Due to model limitations, the input data must have both original blog text and at least one comment text, otherwise may throw exceptions.
+
 ---
 
 *If you think this project is helpful to you, plz star it and let more people see it. :)*
